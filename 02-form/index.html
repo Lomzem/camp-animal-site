@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Sandwich maker</h1>
+    <form>
+        <div id="options-wrapper">
+            <h3>Sandwich Name:</h3>
+            <input type="text" name="name">
+
+            <h3>Choose a bread:</h3>
+            <input type="radio" id="white" name="bread" value="white">
+            <label for="white">White</label>
+
+            <input type="radio" id="wheat" name="bread" value="wheat">
+            <label for="wheat">Wheat</label>
+
+            <h3>Choose a protein:</h3>
+            <select id="protein">
+                <option value="turkey">Turkey</option>
+                <option value="chicken">Chicken</option>
+            </select>
+
+            <h3>Choose your toppings:</h3>
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" name="lettuce" value="lettuce">
+            <button type="submit" value="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
