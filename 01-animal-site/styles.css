@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+* {
+    --platinum: #eaeaeaff;
+    --periwinkle: #cbc5eaff;
+    --pomp-and-power: #73628aff;
+    --delft-blue: #313d5aff;
+    --gunmetal: #183642ff;
+    margin: 0;
+}
+
+
+body {
+    background: var(--delft-blue);
+    color: var(--periwinkle);
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#panda-img {
+    border-radius: 16px;
+    border: 5px solid var(--pomp-and-power);
+    padding: 0;
+    width: 25rem;
+}
+
+#img-wrapper {
+    padding: 5px;
+}
+
+#panda-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#panda-header {
+    text-align: center;
+}
